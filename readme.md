@@ -5,13 +5,13 @@
 
   Just launch the batch file from Explorer or type 
 
-     *flash_oemlogo image_to_flash.bmp*
+     `flash_oemlogo image_to_flash.bmp`
 
   in terminal.
 
   The command 
 
-    *flash_oemlogo rescue*
+    `flash_oemlogo rescue`
 
   will flash the default Huawei logo, which may be useful if the screen
   of your phone doesn't work but ADB connection is still available.
