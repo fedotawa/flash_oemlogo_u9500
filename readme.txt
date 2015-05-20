@@ -1,34 +1,34 @@
-Automatic oemlogo flasher for Huawei U9500
+###Automatic oemlogo flasher for Huawei U9500
 
 
-Usage
+###Usage
 
   Just launch the batch file from Explorer or type 
 
-     flash_oemlogo image_to_flash.bmp 
+     *flash_oemlogo image_to_flash.bmp*
 
   in terminal.
 
   The command 
 
-    flash_oemlogo rescue
+    *flash_oemlogo rescue*
 
   will flash the default Huawei logo, which may be useful if the screen
   of your phone doesn't work but ADB connection is still available.
 
 
-Supported image formats
+####Supported image formats
 
   720x1280 PNG and Windows BMP only.
   Images of other dimensions may cause unpredictable hardware failures.
 
 
-Requirements
+####Requirements
 
   root, USB debugging enabled.
 
 
-Notes
+####Notes
 
   The tool is based on a modified Huawei's load_oemlogo executable, which now doesn't
   require the presence of /data/custom.bin file and takes image from /cust/oemlogo.mbn.
